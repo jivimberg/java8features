@@ -14,6 +14,7 @@ public class Sample {
              .mapToInt(Sample::compute)
              .sum()));
   }
+
   public static int compute(int number) {
     //assume this is time intensive
     try { Thread.sleep(1000); } catch(Exception ex) {}
