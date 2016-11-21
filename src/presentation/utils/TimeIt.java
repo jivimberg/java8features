@@ -2,7 +2,7 @@ package presentation.utils;
 
 import com.sun.istack.internal.NotNull;
 
-public class Chronometer {
+public class TimeIt {
     public static void code(@NotNull Runnable block) {
         long start = System.nanoTime();
         try {
