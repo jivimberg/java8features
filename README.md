@@ -16,3 +16,4 @@ Code for the presentation on Java 8 features
 8. [Collectors group by and map](src/presentation/CollectorsGroupByAndMap.java)
 9. [Performance](src/presentation/Performance.java)
 10. [Properties of stream](src/presentation/PropertiesOfStream.java)
+11. [Interfaces Improvements](src/presentation/InterfacesImprovements.java)
