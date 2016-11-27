@@ -1,10 +1,13 @@
 package presentation;
 
 import presentation.utils.interfaces.Bird;
+import presentation.utils.interfaces.Command;
 import presentation.utils.interfaces.Eagle;
 import presentation.utils.interfaces.Penguin;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 
 public class InterfacesImprovements {
 
@@ -18,6 +21,16 @@ public class InterfacesImprovements {
         Bird anotherEagle = new Eagle();
         Bird aPenguin = new Penguin();
 
-        System.out.println(Bird.ofAFeather(Arrays.asList(anEagle, anotherEagle, aPenguin)));
+        List<Bird> birdList = Arrays.asList(anEagle, anotherEagle, aPenguin);
+        System.out.println(Bird.ofAFeather(birdList));
+
+        // TODO show @FunctionalInterface
+
+        // Include this example?
+        InterfacesImprovements.applyCommand(birdList, () -> System.out.println("saw a bird"));
+    }
+
+    private static void applyCommand(Collection<Bird> birds, Command command) {
+        birds.forEach(e -> command.doAction());
     }
 }
