@@ -1,4 +1,4 @@
-# java8features
+# Java 8 is here!
 
 Code for the presentation on Java 8 features
 
@@ -13,7 +13,10 @@ Code for the presentation on Java 8 features
 7. [Collectors](src/presentation/Collectors.java)
 8. [Collectors map](src/presentation/CollectorsMap.java)
 9. [Collectors group by](src/presentation/CollectorsGroupBy.java)
-8. [Collectors group by and map](src/presentation/CollectorsGroupByAndMap.java)
-9. [Performance](src/presentation/Performance.java)
-10. [Properties of stream](src/presentation/PropertiesOfStream.java)
-11. [Interfaces Improvements](src/presentation/InterfacesImprovements.java)
+10. [Collectors group by and map](src/presentation/CollectorsGroupByAndMap.java)
+11. [Performance](src/presentation/Performance.java)
+12. [Properties of stream](src/presentation/PropertiesOfStream.java)
+13. [Interfaces Improvements](src/presentation/InterfacesImprovements.java)
+14. [What lambdas don't do - part 1](src/presentation/WhatLambdasDontDo1.java)
+15. [What lambdas don't do - part 2](src/presentation/WhatLambdasDontDo2.java)
+16. [What lambdas don't do - part 3](src/presentation/WhatLambdasDontDo3.java)
