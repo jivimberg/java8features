@@ -27,7 +27,7 @@ public class PropertiesOfStreams {
     //sized, ordered, distinct, sorted
 
     // infinite streams!
-    Stream<Integer> infiniteStream = Stream.iterate(100, e -> e + 1);
+    Stream<Integer> infiniteStream = Stream.iterate(100, e -> e + 1); //Parameters: seed + a function applied to the previous value to get the new one
     System.out.println(infiniteStream); //100, 101, 102
 
     //TODO Think of a cool example for infinite streams
