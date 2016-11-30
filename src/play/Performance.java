@@ -10,5 +10,15 @@ public class Performance {
 
     //given an ordered list find the double of the first even number greater than 3.
 
+    int result = 0;
+    for(int e : numbers) {
+      if(e > 3 && e % 2 == 0) {
+        result = e * 2;
+        break;
+      }
+    }
+
+    System.out.println(result);
+
   }
 }

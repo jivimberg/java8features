@@ -13,6 +13,8 @@ public class IntroToLambda {
 
         System.out.println("In main");
 
+        //Fixme: function needs to be wrapped in method needs to be wrapped in anonymous class
+
         //function has 4 things
         //1. name -> anonymous
             //2. parameter list

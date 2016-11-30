@@ -8,9 +8,12 @@ import java.util.List;
 
 public class CollectorsMap {
   public static void main(String[] args) {
+    List<Person> people = createPeople();
+
     //create a Map with name and age as key, and the person as value.
 
-    List<Person> people = createPeople();
+    // Sara-20 -> Person
+    // Jill-12 -> Person
 
   }
 

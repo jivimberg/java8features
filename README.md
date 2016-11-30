@@ -20,3 +20,4 @@ Code for the presentation on Java 8 features
 14. [What lambdas don't do - part 1](src/presentation/WhatLambdasDontDo1.java)
 15. [What lambdas don't do - part 2](src/presentation/WhatLambdasDontDo2.java)
 16. [What lambdas don't do - part 3](src/presentation/WhatLambdasDontDo3.java)
+17. [Dessert](src/presentation/DESSERT.md)

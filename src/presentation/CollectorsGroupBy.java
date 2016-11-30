@@ -15,6 +15,9 @@ public class CollectorsGroupBy {
     //given a list of people, create a map where
     //their name is the key and value is all the people with that name.
 
+    // Sara -> [Sara -- FEMALE -- 20, Sara -- FEMALE -- 22],
+    // Jack -> [Jack -- MALE -- 2, Jack -- MALE -- 72]
+
     // Fixme: Talk about how you would do this in imperative form: Create map, ask each item the name, see if the list is created etc.
     // Fixme: How many lines? More important: who founds it fun to write that code??
 

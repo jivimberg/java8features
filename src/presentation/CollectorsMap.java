@@ -12,6 +12,9 @@ public class CollectorsMap {
   public static void main(String[] args) {
     //create a Map with name and age as key, and the person as value.
 
+    // Sara-20 -> Person
+    // Jill-12 -> Person
+
     List<Person> people = createPeople();
 
     System.out.println(
@@ -22,7 +25,6 @@ public class CollectorsMap {
 
   }
 
-  // TODO add this bit later
   private static List<Person> createPeople() {
     return Arrays.asList(
             new Person("Sara", Gender.FEMALE, 20),

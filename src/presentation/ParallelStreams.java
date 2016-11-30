@@ -33,5 +33,5 @@ public class ParallelStreams {
     //      b) You're willing to use lots of resources to get the answer faster -> Example of asking everybody for Nico's email address
     //      c) When data size is big enough you'll get the boost of performance
     //      d) When the task computation is intensive enough you'll gain a boost of performance
-    // And ALWAYS MESURE!
+    // And ALWAYS MEASURE!
 }

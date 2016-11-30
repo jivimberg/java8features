@@ -23,10 +23,8 @@ public class IntroToStreams {
         // Fixme: spaghetti code! you have to go back and forth to understand what's going on. Keep in the head many variables.
 
         // Fixme: Think of streams as a fancy iterator
-
         // Fixme: The for hammer. We have been using 'for' for everything
 
-        // TODO: add the System.out only at last moment
 
         System.out.println(
                  numbers.stream()

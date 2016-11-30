@@ -24,6 +24,15 @@ public class Performance {
 
     //how much work? 8 units work
 
+    //isGT3 1
+    //isGT3 2
+    //isGT3 3
+    //isGT3 5
+    //isEven 5
+    //isGT3 4
+    //isEven 4
+    //doubleIt 4
+
     System.out.println(
       numbers.stream()
              .filter(Performance::isGT3)

@@ -23,10 +23,4 @@ public class WhatLambdasDontDo3 {
                             .anyMatch(secret::equals);
     }
 
-    // Fixme: For what it's worth, a Spliterator is a way of operating over the elements of a collection in a way
-    // Fixme: that it's easy to split off part of the collection, e.g. because you're parallelizing and want one thread
-    // Fixme: to work on one part of the collection, one thread to work on another part, etc.
-
-
-
 }

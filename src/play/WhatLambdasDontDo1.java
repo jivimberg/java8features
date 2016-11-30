@@ -14,8 +14,6 @@ public class WhatLambdasDontDo1 {
 //            count++; // error: can't modify the value of count
         });
 
-        //Fixme: things need to be final or effectively final (they must not be modified after they're assigned)
-
         // Example of effectively final
         String message = "message number: ";
         List<String> numbers = Arrays.asList("1", "2", "3");

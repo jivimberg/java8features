@@ -17,6 +17,9 @@ public class CollectorsGroupByAndMap {
         //given a list of people, create a map where
         //their name is the key and value is all the ages of people with that name
 
+        // Bob=[20],
+        // Sara=[20, 22]
+
         System.out.println(
                 people.stream()
                         .collect(groupingBy(Person::getName,
